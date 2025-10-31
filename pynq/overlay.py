@@ -605,7 +605,24 @@ _struct_dict = {
     "long": "l",
     "uint": "I",
     "ushort": "H",
+    'uint32_t': 'I',
+    'uint16_t': 'H',
+    'uint8_t': 'B',
+    'uint64_t': 'Q',
+    'int32_t': 'i',
+    'int16_t': 'h',
+    'int8_t': 'b',
+    'int64_t': 'q',
+    'ap_uint<8>': 'B',
+    'ap_uint<16>': 'H',
+    'ap_uint<32>': 'I',
+    'ap_uint<64>': 'Q',
+    'ap_int<8>': 'b',
+    'ap_int<16>': 'h',
+    'ap_int<32>': 'i',
+    'ap_int<64>': 'q',
 }
+
 
 
 def _ctype_to_struct(ctype):
